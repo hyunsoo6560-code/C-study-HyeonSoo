@@ -28,7 +28,7 @@ int main (void) {
 	
 	
 	if (age < 8) {
-		printf("Jammini");
+		printf("child");
 	}
 	// else if 를 사용함으로써 (age >= 8) 이 보장됨   ,if를 사용하면 if문을 다 검사하지만 얘는 탈출! 컴퓨터 입장에서 더 좋지
 	else if   (age <17) {
@@ -76,7 +76,7 @@ int main (void) {
 	
 	// 가위바위보
 
-	printf("Rock Scissors Paper !! \nRock Scissors Paper !! \nTry to beat me bitch!! \n\n");
+	printf("Rock Scissors Paper !! \nRock Scissors Paper !! \nTry to beat me !! \n\n");
 	printf("Press numbers (you can press 0 , 1 , 2)\n ");
 	printf("Rock is 0 \nScissors is 1 \nPaper is 2\n\n");
 
@@ -96,11 +96,11 @@ int main (void) {
 
 	// 컴퓨터가 이기는 경우
 	else if (j == 0 && i == 1 || j == 1 && i == 2 || j == 2 && i == 0) {
-		printf("User: %d \nCom: %d \nCom Win !! HAHAHA Go away Bitch!!\n", i, j);
+		printf("User: %d \nCom: %d \nCom Win !! HAHAHA!!\n", i, j);
 	}
 
 	else {
-		printf("Draw bitch!!\n");
+		printf("Draw!!\n");
 	}
 	
 
@@ -112,7 +112,7 @@ int main (void) {
 	int j; // 컴퓨터 선택
 
 	printf("========= Rock Scissors Paper Game =========\n");
-	printf("Try to beat me bitch!! \n\n");
+	printf("Try to beat me!! \n\n");
 	printf("0 : Rock \n1 : Scissors \n2 : Paper\n");
 	printf("--------------------------------------------\n");
 	printf("Press number: ");
@@ -165,13 +165,13 @@ int main (void) {
 	// 5. 승패 판정 로직 (입력값이 0, 1, 2일 때만 실행)
 	if (i >= 0 && i <= 2) {
 		if (i == j) {
-			printf("Draw bitch!!\n");
+			printf("Draw!!\n");
 		}
 		else if ((i == 0 && j == 1) || (i == 1 && j == 2) || (i == 2 && j == 0)) {
 			printf("User Win !! You're lucky...\n");
 		}
 		else {
-			printf("Com Win !! HAHAHA Go away Bitch!!\n");
+			printf("Com Win !! HAHAHA Go away!!\n");
 		}
 	}
 	else {
@@ -184,7 +184,7 @@ int main (void) {
 */
 
 // 프로젝트 숫자 맞추기      case 안에 부등식은 안됨!!
-printf("Hey bitch !! I will give you 5 chances !! guess my number bitch!!! (anser : 1 ~50 integer)\n");
+printf("Hey !! I will give you 5 chances !! guess my number!!! (anser : 1 ~50 integer)\n");
 
 //정답 난수 생성
 srand(time(NULL));
@@ -222,7 +222,7 @@ while (cnt <= 4) {
 
 		}
 		else  {
-		printf("\nFail bitch!! \n");
+		printf("\nFail!! \n");
 		}
 
 		printf("Answer : %d\n", ans);
